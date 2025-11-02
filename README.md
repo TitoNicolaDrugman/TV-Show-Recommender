@@ -1,5 +1,8 @@
 # TV Show Recommender System
 
+![alt text](visualization.gif)
+
+
 This repository contains the implementation of a TV show recommender system based on collaborative filtering algorithms. The project was developed for the CIE6006/MCE5918 Data Analytics course at The Chinese University of Hong Kong. Shenzhen. It explores both user-user and item-item collaborative filtering approaches to generate personalized TV show recommendations.
 
 ## Table of Contents
