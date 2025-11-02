@@ -15,12 +15,11 @@
             border-radius: 5px;
             pointer-events: none;
         }
-        /* Style for the control panel */
         #controls {
             position: absolute;
             top: 15px;
             left: 15px;
-            z-index: 100; /* Ensures it's on top of the canvas */
+            z-index: 100;
             padding: 10px;
             background-color: rgba(0, 0, 0, 0.5);
             border-radius: 8px;
@@ -28,10 +27,8 @@
     </style>
 </head>
 <body>
-    <!-- This is where the show name will be displayed -->
     <div id="tooltip"></div>
 
-    <!-- UI for user selection -->
     <div id="controls">
         <label for="user-selector">Select User to Inspect:</label>
         <select id="user-selector">
@@ -39,7 +36,6 @@
         </select>
     </div>
 
-    <!-- The core Three.js library -->
     <script type="importmap">
         {
             "imports": {
@@ -49,7 +45,6 @@
         }
     </script>
 
-    <!-- Your JavaScript file that builds the scene -->
     <script type="module" src="main.js"></script>
 </body>
 </html>
